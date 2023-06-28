@@ -1,7 +1,4 @@
-function sum(a, b) {
-    return a + b;
-}
-
+const sum = require("../src/sum")
 test('sum', () => {
     const a = 4;
     const b =5
